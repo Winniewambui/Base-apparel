@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    max-width: 75rem;
+    margin: auto;
+    display: flex;
+}
+aside{
+    /* border: 1px solid blue; */
+    background-color: white;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 6px;
+    width: 400px;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+header{
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 3.5rem;
+font-weight: 600;
+/* color: hsl(0, 93%, 68%); */
+color:hsl(0, 36%, 70%);
+
+}
+b{
+color: black;
+font-weight: 700;
+}
+article{
+color:hsl(0, 36%, 70%);
+font-size: 16px;
+font-weight: 300;
+line-height: 2rem;
+word-spacing: 2px;
+margin-bottom: 30px;
+}
+.email-input{
+/* display: block;
+width: 100%;
+box-sizing: border-box; */
+padding: 1rem 6rem;
+border: 1px solid  hsl(0, 6%, 24%);
+opacity: 0.2;
+border-radius: 25px;
+position: absolute;
+left: 12rem;
+/* align-self: flex-start; */
+}
+.base-apparel-img{
+    width: 30rem;
+  
+}

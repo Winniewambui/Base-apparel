@@ -59,34 +59,34 @@ margin-bottom: 30px;
     justify-content: center;
 }
 .email-input{
-/* display: block;
-width: 100%;
-box-sizing: border-box; */
 padding: 1rem 7rem;
 border: 1px solid hsl(0, 6%, 24%);
 opacity: 0.2;
 border-radius: 25px;
-/* position: absolute;
-left: 12rem; */
-/* align-self: flex-start; */
 position: relative;
 }
   span{
     color: hsl(0, 93%, 68%);
     position: absolute;
-    left: 34%;
-    bottom: 23%;
+    left: 30%;
+    bottom: 22%;
   }
   .btn-button{
-    padding: 1rem 2.5rem;
+    /* padding: 1rem 2.5rem; */
+    width: 85px;
+    height: 47px;
     border-radius: 25px;
-    margin-left: -89px;
-    margin-bottom: 18px;
     color: white;
     background-color: hsl(0, 93%, 68%);
     box-shadow: 0px 1.5px 4px  hsl(0, 93%, 68%);
     opacity: 0.5;
     border: none;
+    transform: translateX(-100%)
+  }
+  .btn-button:hover{
+    background-color: hsl(0, 93%, 68%);
+    opacity: 0.4;
+    cursor: pointer;
   }
 .base-apparel-img{
     width: 30rem;
